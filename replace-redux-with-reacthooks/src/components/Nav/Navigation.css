@@ -3,14 +3,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ff2058;
 }
 
 .main-header nav {
   height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: right;
+  align-items: right;
 }
 
 .main-header ul {
@@ -29,12 +28,20 @@
 
 .main-header a {
   text-decoration: none;
-  color: white;
+  color: #030303;
   font-weight: bold;
 }
 
 .main-header a:hover,
 .main-header a:active,
 .main-header a.active {
-  color: #560061;
+  color: #030303;
+  text-decoration-line: underline;
+}
+
+.main-header .product-item-img {
+  width: 100px;
+  height: 100px;
+  margin-top: 0px;
+  padding: auto;
 }

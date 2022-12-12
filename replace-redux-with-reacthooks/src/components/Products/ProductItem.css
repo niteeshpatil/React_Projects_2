@@ -1,12 +1,21 @@
 .product-item h2 {
   font-size: 1.15rem;
   margin: 0.25rem 0;
+  text-align: center;
 }
 
 .product-item h2.is-fav {
   color: #ff2058;
+  text-align: center;
 }
 
 .product-item p {
   margin: 0.25rem 0;
+  text-align: center;
+}
+
+.product-item-img {
+  height: 200px;
+  width: 200px;
+  margin-left: auto;
 }

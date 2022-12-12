@@ -1,15 +1,24 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React from "react";
+import { NavLink } from "react-router-dom";
+import im from "./pataka.jpg";
+import "./Navigation.css";
 
-import './Navigation.css';
-
-const Navigation = props => {
+const Navigation = (props) => {
   return (
     <header className="main-header">
       <nav>
         <ul>
           <li>
-            <NavLink to="/" exact>All Products</NavLink>
+            <img
+              className="product-item-img"
+              src={im}
+              alt="Flowers in Chania"
+            ></img>
+          </li>
+          <li>
+            <NavLink to="/" exact>
+              All Products
+            </NavLink>
           </li>
           <li>
             <NavLink to="/favorites">Favorites</NavLink>
